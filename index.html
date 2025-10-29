@@ -1,158 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Tree</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <nav class="navbar">
-    <div class="navbar-header">
-      <div class="logo">
-        <img src="logo.png" alt="Tech Tree Logo">
-      </div>
-      <button class="menu-toggle" id="menuToggle">
-        <i class="fas fa-bars"></i>
-      </button>
-    </div>
-    
-    <ul class="nav-links" id="navLinks">
-      <li>
-        <a href="#">
-          <i class="fa-solid fa-house"></i>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa-solid fa-eject"></i>
-          About
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa-solid fa-book"></i>
-          Academics
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-user"></i>
-          Sign in
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="home" id="homeSection">
-    <img src="home.png" alt="Background Image">
-
-    <div class="content">
-      <h1>Accelerating Your Academic Growth</h1>
-      <p>Elevate Your Learning Experience: Our platform combines a robust academic support system with an engaging game.</p>
-      <button class="btn">Explore Now</button>
-    </div>
-
-    <!-- Animated text elements -->
-    <div class="animated-text" id="animatedText">
-      <span class="text-part" id="textPart1">Assigment</span>
-      <span class="text-part" id="textPart2">Problem statement</span>
-      <span class="text-part" id="textPart3">Unit test</span>
-      <span class="text-part" id="textPart4">Game zone</span>
-      <span class="text-part" id="textPart5">Solution</span>
-    </div>
-  </div>
-
-  <!-- Features Section -->
-  <section class="features-section">
-    <div class="section-header">
-      <h2>Our Amazing Features</h2>
-      <p>Discover the powerful tools that will transform your learning experience</p>
-    </div>
-    
-    <div class="features-container">
-      <div class="feature-box">
-        <div class="feature-icon">
-          <i class="fas fa-tasks"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Tree</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-header">
+        <div class="logo">
+          <img src="logo.png" alt="Tech Tree Logo" />
         </div>
-        <h3>Assignment Helper</h3>
-        <p>Get expert help with your assignments and projects with our intelligent assistance system</p>
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
-      
-      <div class="feature-box">
-        <div class="feature-icon">
-          <i class="fa-solid fa-microscope"></i>
-        </div>
-        <h3>Game Zone</h3>
-        <p>Learn through interactive games that make education fun and engaging</p>
+
+      <ul class="nav-links" id="navLinks">
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-eject"></i>
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-book"></i>
+            Academics
+          </a>
+        </li>
+        <li>
+          <a href="register.html">
+            <i class="fas fa-user"></i>
+            Sign in
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="home" id="homeSection">
+      <img src="home.png" alt="Background Image" />
+
+      <div class="content">
+        <h1>Accelerating Your Academic Growth</h1>
+        <p>
+          Elevate Your Learning Experience: Our platform combines a robust
+          academic support system with an engaging game.
+        </p>
+        <button class="btn">Explore Now</button>
       </div>
-      
-      <div class="feature-box">
-        <div class="feature-icon">
-          <i class="fas fa-file-alt"></i>
-        </div>
-        <h3>Paper Solver</h3>
-        <p>Solve previous year papers with step-by-step solutions and explanations</p>
+
+      <!-- Animated text elements -->
+      <div class="animated-text" id="animatedText">
+        <span class="text-part" id="textPart1">Assigment</span>
+        <span class="text-part" id="textPart2">Problem statement</span>
+        <span class="text-part" id="textPart3">Unit test</span>
+        <span class="text-part" id="textPart4">Game zone</span>
+        <span class="text-part" id="textPart5">Solution</span>
       </div>
     </div>
-  </section>
-<!-- work section -->
 
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="section-header">
+        <h2>Our Amazing Features</h2>
+        <p>
+          Discover the powerful tools that will transform your learning
+          experience
+        </p>
+      </div>
 
-
-<section class="work">
-    <div class="work-container">
-      <h1 class="work-title">How It Works</h1>
-      <div class="steps">
-        <div class="step-card">
-          <div class="step-number">01</div>
-          <div class="step-content">
-            <h3>Sign Up & Create Account</h3>
-            <p>Quick registration to get started with your learning journey</p>
-          </div>
-          <div class="step-icon">
-            <i class="fas fa-user-plus"></i>
-          </div>
-        </div>
-
-        <div class="step-card">
-          <div class="step-number">02</div>
-          <div class="step-content">
-            <h3>Select Course & Subject</h3>
-            <p>Choose from our wide range of courses and subjects</p>
-          </div>
-          <div class="step-icon">
-            <i class="fas fa-book-open"></i>
-          </div>
-        </div>
-
-        <div class="step-card">
-          <div class="step-number">03</div>
-          <div class="step-content">
-            <h3>Choose Assignment Type</h3>
-            <p>Select assignments or previous year papers</p>
-          </div>
-          <div class="step-icon">
+      <div class="features-container">
+        <div class="feature-box">
+          <div class="feature-icon">
             <i class="fas fa-tasks"></i>
           </div>
+          <h3>Assignment Helper</h3>
+          <p>
+            Get expert help with your assignments and projects with our
+            intelligent assistance system
+          </p>
         </div>
 
-        <div class="step-card">
-          <div class="step-number">04</div>
-          <div class="step-content">
-            <h3>Get Instant Access</h3>
-            <p>Access solutions and tools immediately</p>
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fa-solid fa-microscope"></i>
           </div>
-          <div class="step-icon">
-            <i class="fas fa-rocket"></i>
+          <h3>Game Zone</h3>
+          <p>
+            Learn through interactive games that make education fun and engaging
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3>Paper Solver</h3>
+          <p>
+            Solve previous year papers with step-by-step solutions and
+            explanations
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- work section -->
+
+    <section class="work">
+      <div class="work-container">
+        <h1 class="work-title">How It Works</h1>
+        <div class="steps">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Sign Up & Create Account</h3>
+              <p>
+                Quick registration to get started with your learning journey
+              </p>
+            </div>
+            <div class="step-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Select Course & Subject</h3>
+              <p>Choose from our wide range of courses and subjects</p>
+            </div>
+            <div class="step-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Choose Assignment Type</h3>
+              <p>Select assignments or previous year papers</p>
+            </div>
+            <div class="step-icon">
+              <i class="fas fa-tasks"></i>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Get Instant Access</h3>
+              <p>Access solutions and tools immediately</p>
+            </div>
+            <div class="step-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
